@@ -3,8 +3,6 @@ package com.serenitydojo;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static junit.framework.TestCase.assertEquals;
-import static junit.framework.TestCase.assertNull;
 import static org.junit.Assert.assertEquals;
 
 public class WhenCreatingObjects {
@@ -24,9 +22,5 @@ public class WhenCreatingObjects {
         System.out.println(fido.getFavoriteToy());
         System.out.println(fido.getAge());
 
-    }
-    @Test
-    public void testNull() {
-        assertNull(null, "null");
     }
 }
